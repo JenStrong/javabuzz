@@ -1,7 +1,7 @@
 var Javabuzz = function(){};
 
 Javabuzz.prototype._isDivisibleBy = function(number, divisor) {
-  return (number % divisor === 0)
+  return (number % divisor === 0);
 };
 
 Javabuzz.prototype.isDivisibleByThree = function(number) {

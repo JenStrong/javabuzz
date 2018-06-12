@@ -23,7 +23,6 @@ describe('Javabuzz',function() {
     });
   });
 
-
   describe('knows when a number is NOT', function() {
     it('divisible by 3', function () {
       // javabuzz = new Javabuzz();
@@ -52,6 +51,10 @@ describe('Javabuzz',function() {
 
     it(' "Fizzbuzz" when a number is divisible by 3 and 5', function(){
       expect(javabuzz.says(15)).toEqual("Javabuzz")
+    });
+
+    it( 'number when a number is not divisibly by 3 nor 5', function() {
+      expect(javabuzz.says(7)).toEqual(7)
     });
 
   });
